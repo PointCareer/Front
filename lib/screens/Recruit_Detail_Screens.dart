@@ -261,14 +261,14 @@ class _RecruitDetailScreensState extends State<RecruitDetailScreens> {
                       fit: BoxFit.cover,
                       errorBuilder: (context, error, stackTrace) {
                         return Image.asset(
-                          'assets/images/cat.jpg',
+                          'assets/images/logo.png',
                           height: 200,
                           fit: BoxFit.cover,
                         );
                       },
                     )
                   : Image.asset(
-                      'assets/images/cat.jpg',
+                      'assets/images/logo.png',
                       height: 200,
                       fit: BoxFit.cover,
                     ),

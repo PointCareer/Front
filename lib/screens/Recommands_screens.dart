@@ -246,7 +246,7 @@ class _RecommandsScreensState extends State<RecommandsScreens> {
               height: 60,
               fit: BoxFit.cover,
               errorBuilder: (context, error, stackTrace) {
-                return Image.asset('assets/images/cat.jpg',
+                return Image.asset('assets/images/logo.png',
                 width: 60,
                 height: 60,
                 fit: BoxFit.cover,
